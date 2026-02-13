@@ -50,6 +50,6 @@ I managed the transition from legacy systems by finalizing ending main account b
 ---
 
 ### 📫 Connect With Me
-* **LinkedIn:** https:/www.linkedin.com/in/nrechiverri
+* **LinkedIn:** https://www.linkedin.com/in/nrechiverri
 * **Email:** nrechiverri@outlook.com
 * **Location:** Based in Manila, PH

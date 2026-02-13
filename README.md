@@ -17,3 +17,10 @@ Implemented the **D365FO Subscription Billing** module.
 * **Compliance:** Configured deferral templates to ensure **ASC 606/IFRS 15** compliance for long-term service contracts.
 * **Process Automation:** Eliminated manual "catch-up" journals by automating the link between Sales Order invoicing and Deferral Schedule generation.
 * **Global Ready:** Handled multi-currency billing and automated exchange rate adjustments for APAC regional entities.
+
+graph TD
+    A[Sales Order Created] --> B{Invoiced?}
+    B -- Yes --> C[Subscription Billing Schedule Generated]
+    C --> D[Revenue Deferral Schedule Created]
+    D --> E[Monthly Recognition Journal Posted]
+    E --> F[GL Updated / Financial Reporting]

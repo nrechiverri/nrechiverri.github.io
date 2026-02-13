@@ -24,7 +24,7 @@ I led the end-to-end implementation of the **D365FO Subscription Billing** modul
 * **Multi-Currency Orchestration:** Automated exchange rate revaluation for regional entities (SGD, AUD, USD), ensuring consolidated financial accuracy.
 
 ### 📊 Visualizing the Logic
-```mermaid
+
 graph LR
     A[Sales Order] --> B{Invoice Posted}
     B --> C[Billing Schedule]

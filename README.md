@@ -12,3 +12,8 @@ Implemented the **D365FO Subscription Billing** module.
 ### Impact
 * **Audit Ready:** 100% traceability from GL journal back to the Sales Order.
 * **Efficiency:** Reduced month-end revenue recognition time by 3 days.
+
+* ### Key Technical Achievements
+* **Compliance:** Configured deferral templates to ensure **ASC 606/IFRS 15** compliance for long-term service contracts.
+* **Process Automation:** Eliminated manual "catch-up" journals by automating the link between Sales Order invoicing and Deferral Schedule generation.
+* **Global Ready:** Handled multi-currency billing and automated exchange rate adjustments for APAC regional entities.

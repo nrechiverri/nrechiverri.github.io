@@ -33,3 +33,23 @@ graph LR
     E --> F[GL Updated / Financial Reporting]
     
     style D fill:#f9f,stroke:#333,stroke-width:2px
+
+### 📈 The Business Impact
+* **Efficiency:** Reduced the monthly revenue recognition cycle from **3 days to 4 hours**.
+* **Audit Readiness:** Achieved 100% drill-down traceability from GL entries back to the original source contract.
+* **Accuracy:** Eliminated "double-booking" risks by synchronizing credit notes with active deferral schedules.
+
+### 💡 Expert Note: Cutover Strategy
+I managed the transition from legacy systems by finalizing ending main account balances and re-configuring deferral schedules only for the **remaining duration** of active contracts. This ensured a "Clean Slate" go-live without duplicating previously recognized revenue.
+
+### 🛠️ Technical Expertise & Methodology
+* **Implementation:** End-to-End (FDD creation, Configuration, UAT, Go-Live Support).
+* **Data Management:** Expert in **DIXF (Data Management Framework)** for complex data migrations.
+* **Process Mapping:** Proficient in visualizing business logic via **Mermaid.js** and **LucidChart**.
+* **Ecosystem:** Proficient in **LCS**, **Azure DevOps** for ALM, and **Power Platform** integrations.
+---
+
+### 📫 Connect With Me
+* **LinkedIn:** https:/www.linkedin.com/in/nrechiverri
+* **Email:** nrechiverri@outlook.com
+* **Location:** Based in Manila, PH

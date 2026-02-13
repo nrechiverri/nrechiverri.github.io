@@ -1,26 +1,35 @@
 # Neil Echiverri | D365FO Functional Consultant
+**Specialization:** Financial Automation | Subscription Economy | Global ERP Rollouts
 
-## Portfolio: Subscription Billing Implementation
-**Industry:** APAC Technology & Managed Services
-**Goal:** Automate manual revenue deferrals for 500+ monthly contracts.
+> **"Bridging the gap between complex accounting standards and D365FO technical configuration to drive business transformation."**
 
-### The Solution
-Implemented the **D365FO Subscription Billing** module. 
-* Managed **Revenue and Expense Deferrals** directly from Sales Orders.
-* Automated **Deferral Schedules** to replace manual Excel trackers.
+---
 
-### Impact
-* **Audit Ready:** 100% traceability from GL journal back to the Sales Order.
-* **Efficiency:** Reduced month-end revenue recognition time by 3 days.
+## 🚀 Featured Project: Global Subscription Revenue Transformation
 
-### Key Technical Achievements
-* **Compliance:** Configured deferral templates to ensure **ASC 606/IFRS 15** compliance for long-term service contracts.
-* **Process Automation:** Eliminated manual "catch-up" journals by automating the link between Sales Order invoicing and Deferral Schedule generation.
-* **Global Ready:** Handled multi-currency billing and automated exchange rate adjustments for APAC regional entities.
+**Client Archetype:** APAC-based Technology & Managed Services Provider  
+**Core Modules:** Subscription Billing (Revenue & Expense Deferrals), Sales & Marketing, General Ledger  
+**Compliance Standards:** ASC 606 / IFRS 15
 
-graph TD
-    A[Sales Order Created] --> B{Invoiced?}
-    B -- Yes --> C[Subscription Billing Schedule Generated]
-    C --> D[Revenue Deferral Schedule Created]
-    D --> E[Monthly Recognition Journal Posted]
+### 🎯 The Challenge
+The client relied on a manual, Excel-based revenue recognition process for over 500+ monthly service contracts, leading to high audit risks and reconciliation delays.
+* **Pain Points:** Human error in monthly journals, lack of traceability for mid-term contract changes, and a 3-day month-end closing cycle for revenue recognition.
+
+### 🛠️ The Solution
+I led the end-to-end implementation of the **D365FO Subscription Billing** module to automate the deferral lifecycle.
+
+**Functional Highlights:**
+* **Automated Deferral Logic:** Designed templates triggered by Sales Order invoicing to generate real-time deferral schedules.
+* **Dynamic Adjustments:** Configured the system to handle mid-term **Credit Notes**. By linking credits to original Sales Orders, the system automatically adjusts the deferral schedule, preventing revenue leakage or "double-booking."
+* **Multi-Currency Orchestration:** Automated exchange rate revaluation for regional entities (SGD, AUD, USD), ensuring consolidated financial accuracy.
+
+### 📊 Visualizing the Logic
+```mermaid
+graph LR
+    A[Sales Order] --> B{Invoice Posted}
+    B --> C[Billing Schedule]
+    C --> D[Deferral Schedule Created]
+    D --> E[Monthly Recognition Journal]
     E --> F[GL Updated / Financial Reporting]
+    
+    style D fill:#f9f,stroke:#333,stroke-width:2px

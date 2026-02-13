@@ -25,6 +25,7 @@ I led the end-to-end implementation of the **D365FO Subscription Billing** modul
 
 ### 📊 Visualizing the Logic
 
+```mermaid
 graph LR
     A[Sales Order] --> B{Invoice Posted}
     B --> C[Billing Schedule]
@@ -33,6 +34,7 @@ graph LR
     E --> F[GL Updated / Financial Reporting]
     
     style D fill:#f9f,stroke:#333,stroke-width:2px
+``` 
 
 ### 📈 The Business Impact
 * **Efficiency:** Reduced the monthly revenue recognition cycle from **3 days to 4 hours**.

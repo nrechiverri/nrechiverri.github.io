@@ -1,7 +1,13 @@
-# Neil Echiverri | D365FO Functional Consultant
-**Specialization:** Financial Automation | Subscription Economy | Global ERP Rollouts
+# Neil Echiverri | Dynamics 365 FinOps Functional Consultant
+**Specialization:** Financial Automation | Global Microsoft Dynamics 365 F&O Rollouts
 
-![image alt](https://github.com/nrechiverri/nrechiverri.github.io/blob/5e619110eedcee249a881e54b6eeefcd45e476eb/NRE_ID_Picture.JPG)
+<table>
+    <tr>
+        <th>
+            <img src="https://github.com/nrechiverri/nrechiverri.github.io/blob/5e619110eedcee249a881e54b6eeefcd45e476eb/NRE_ID_Picture.JPG" width="auto" height="150">
+        </th>
+    </tr>
+</table>
 
 > **"Bridging the gap between complex accounting standards and D365FO technical configuration to drive business transformation."**
 
@@ -18,14 +24,14 @@ The client relied on a manual, Excel-based revenue recognition process for over 
 * **Pain Points:** Human error in monthly journals, lack of traceability for mid-term contract changes, and a 3-day month-end closing cycle for revenue recognition.
 
 ### 🛠️ The Solution
-I led the end-to-end implementation of the **D365FO Subscription Billing** module to automate the deferral lifecycle.
+* I led the end-to-end implementation of the **D365FO Subscription Billing** module to automate the deferral lifecycle.
 
 **Functional Highlights:**
 * **Automated Deferral Logic:** Designed templates triggered by Sales Order invoicing to generate real-time deferral schedules.
 * **Dynamic Adjustments:** Configured the system to handle mid-term **Credit Notes**. By linking credits to original Sales Orders, the system automatically adjusts the deferral schedule, preventing revenue leakage or "double-booking."
 * **Multi-Currency Orchestration:** Automated exchange rate revaluation for regional entities (SGD, AUD, USD), ensuring consolidated financial accuracy.
 
-### 📊 Visualizing the Logic
+### 📊 Logic Flow
 
 ```mermaid
 graph LR
@@ -35,7 +41,7 @@ graph LR
     D --> E[Monthly Recognition Journal]
     E --> F[GL Updated / Financial Reporting]
     
-    style D fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#99ff99,stroke:#333,stroke-width:2px
 ``` 
 
 ### 📈 The Business Impact
@@ -48,9 +54,10 @@ I managed the transition from legacy systems by finalizing ending main account b
 
 ### 🛠️ Technical Expertise & Methodology
 * **Implementation:** End-to-End (FDD creation, Configuration, UAT, Go-Live Support).
-* **Data Management:** Expert in **DIXF (Data Management Framework)** for complex data migrations.
-* **Process Mapping:** Proficient in visualizing business logic via **Mermaid.js** and **LucidChart**.
+* **Data Management:** Proficient in **DIXF (Data Management Framework)** for complex data migrations.
+* **Process Mapping:** Proficient in visualizing business logic via **Mermaid.js** and **MS Visio**.
 * **Ecosystem:** Proficient in **LCS**, **Azure DevOps** for ALM, and **Power Platform** integrations.
+
 ---
 
 ### 📫 Connect With Me

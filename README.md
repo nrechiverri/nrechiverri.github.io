@@ -1,7 +1,7 @@
 # Neil Echiverri | D365FO Functional Consultant
 **Specialization:** Financial Automation | Subscription Economy | Global ERP Rollouts
 
-![image alt](https://github.com/nrechiverri/nrechiverri.github.io/blob/4ab12a7fe7878b5a739cd865a0fb5deb7d528290/NRE_ID_Picture.pdf)
+![image alt](https://github.com/nrechiverri/nrechiverri.github.io/blob/5e619110eedcee249a881e54b6eeefcd45e476eb/NRE_ID_Picture.JPG)
 
 > **"Bridging the gap between complex accounting standards and D365FO technical configuration to drive business transformation."**
 

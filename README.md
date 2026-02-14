@@ -50,7 +50,7 @@ graph LR
 * **Accuracy:** Eliminated "double-booking" risks by synchronizing credit notes with active deferral schedules.
 
 ### 💡 Expert Note: Cutover Strategy
-I managed the transition from legacy systems by finalizing ending main account balances and re-configuring deferral schedules only for the **remaining duration** of active contracts. This ensured a "Clean Slate" go-live without duplicating previously recognized revenue.
+* I managed the transition from legacy systems by finalizing ending main account balances and re-configuring deferral schedules only for the **remaining duration** of active contracts. This ensured a "Clean Slate" go-live without duplicating previously recognized revenue.
 
 ### 🛠️ Technical Expertise & Methodology
 * **Implementation:** End-to-End (FDD creation, Configuration, UAT, Go-Live Support).

@@ -41,7 +41,7 @@ graph LR
     D --> E[Monthly Recognition Journal]
     E --> F[GL Updated / Financial Reporting]
     
-    style D fill:#99ff99,stroke:#333,stroke-width:2px
+    style D fill:#002277,stroke:#333,stroke-width:2px
 ``` 
 
 ### 📈 The Business Impact

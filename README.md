@@ -59,8 +59,3 @@ graph LR
 * **Ecosystem:** Proficient in **LCS**, **Azure DevOps** for ALM, and **Power Platform** integrations.
 
 ---
-
-### 📫 Connect With Me
-* **LinkedIn:** https://www.linkedin.com/in/nrechiverri
-* **Email:** nrechiverri@outlook.com
-* **Location:** Based in Manila, PH
